@@ -30,6 +30,15 @@ font-weight: 400;
 /* line-height:1.3rem; */
 }
 
+.section-description{
+    color: rgba(19, 19, 24, 0.7);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+}
+
 .input{
 width: 150px;
 height: 52px;
@@ -52,11 +61,15 @@ letter-spacing: 0%;
     background-color: rgb(255, 84, 0);
     color: rgb(255, 255, 255);
 font-family: Mulish;
+width: 150px;
+height: 52px;
+border-radius: 8px;
 font-size: 1rem;
 font-weight: 700;
 line-height: 20px;
 letter-spacing: 0%;
 text-align: center;
+border: none;
 }
 /* navbar.............  */
 .nav-container{
@@ -115,3 +128,25 @@ padding-left: 10px;
 padding-right: 10px;
 }
 
+/* popular-tour......  */
+.popular-tour{
+      max-width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 5rem;
+}
+.popular-tour-content{
+    padding-left: 1rem;
+ 
+}
+
+.popular-tour-content ul{
+    padding: 30px;
+}
+
+.popular-img{
+    height: 450px;
+}
